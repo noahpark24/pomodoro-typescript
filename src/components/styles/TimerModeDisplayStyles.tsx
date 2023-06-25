@@ -1,4 +1,6 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
+
+const { width } = Dimensions.get("window");
 
 const styles = StyleSheet.create({
   container: {
@@ -6,7 +8,7 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   timerModeText: {
-    fontSize: 40,
+    fontSize: width * 0.1,
     fontWeight: "800",
     color: "white",
   },

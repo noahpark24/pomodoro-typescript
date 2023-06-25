@@ -1,4 +1,6 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Platform, Dimensions } from "react-native";
+
+const { width, height } = Dimensions.get("window");
 
 const styles = StyleSheet.create({
   icon: {
@@ -6,13 +8,13 @@ const styles = StyleSheet.create({
     color: "white",
   },
   container: {
-    borderWidth: 5,
-    height: 250,
-    width: 250,
-    borderRadius: 250 / 2,
+    borderWidth: Platform.OS === "web" ? width * 0.02 : width * 0.02,
+    height: Platform.OS === "web" ? height * 0.4 : height * 0.4,
+    width: Platform.OS === "web" ? width * 0.4 : 250,
+    borderRadius: Platform.OS === "web" ? width * 0.4 : width * 0.6,
     justifyContent: "center",
     borderColor: "white",
-    marginVertical: 30,
+    marginVertical: Platform.OS === "web" ? height * 0.03 : height * 0.03,
   },
 });
 

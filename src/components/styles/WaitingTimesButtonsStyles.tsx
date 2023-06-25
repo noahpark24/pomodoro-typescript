@@ -1,4 +1,6 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
+
+const { width } = Dimensions.get("window");
 
 export const styles = StyleSheet.create({
   container: {
@@ -6,11 +8,12 @@ export const styles = StyleSheet.create({
     justifyContent: "space-between",
     marginVertical: 10,
     color: "white",
+    paddingHorizontal: width * 0.05,
   },
   button: {
-    paddingVertical: 10,
-    paddingHorizontal: 20,
-    borderRadius: 5,
+    paddingVertical: width * 0.02,
+    paddingHorizontal: width * 0.03,
+    borderRadius: width * 0.01,
     borderWidth: 1,
     borderColor: "transparent",
     backgroundColor: "transparent",
@@ -20,6 +23,6 @@ export const styles = StyleSheet.create({
   },
   buttonText: {
     color: "white",
-    fontSize: 30,
+    fontSize: width * 0.05,
   },
 });
