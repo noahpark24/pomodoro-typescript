@@ -1,4 +1,4 @@
-# Metodo Pomodoro Con Typescritp y React Native
+# Metodo Pomodoro Con Typescript y React Native
 Proyecto hecho para practicar typescript y react native
 Este Proyecto como indica el nombre es una app para poder apegarse al famoso metodo de estudio pomodoro
 ## Para correr el proyecto se pueden hacer 3 cosas :
