@@ -16,6 +16,11 @@ Este Proyecto como indica el nombre es una app para poder apegarse al famoso met
 3. clonar el repo , correr npm i en la terminal y luego npm start y cuando cargue apretar la tecla w , esto iniciara el proyecto en el navegador web predeterminado ,
    no recomiendo esta opcion ya que no hize los estilos responsivos para web y las proporciones son inmensas pero es funcional
 
+
+## Capturas De Las Vistas Del Proyecto
+
+| <img src="./assets/HOME.jpeg" alt="Captura de la página de inicio" width="300"> | <img src="./assets/SHORT BREAK.jpeg" alt="Captura del descanso corto" width="300"> | <img src="./assets/LONG BREAK.jpeg" alt="Captura de la página de descanso largo" width="300"> | 
+
 ## Futuras actualizaciones :
 
 - Notificacion push cuando el contador llegue a 0
